@@ -8,8 +8,9 @@ class WelcomeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      // mainAxisAlignment: MainAxisAlignment.start,
       color: Colors.blue[100],
-      margin: EdgeInsets.all(16),
+      // margin: EdgeInsets.all(16),
       child: Padding(
         padding: EdgeInsets.all(16),
         child: Text(

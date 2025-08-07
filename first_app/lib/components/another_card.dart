@@ -10,6 +10,10 @@ class AnotherCard extends StatelessWidget {
     return Card(
       color: Colors.green[200],
       margin: EdgeInsets.all(16),
+      shape: RoundedRectangleBorder(
+        side: BorderSide(color: Colors.green, width: 5),
+        borderRadius: BorderRadius.circular(50)
+      ),
       child: Padding(padding: EdgeInsets.all(16), child: Text("$message ")),
     );
   }
